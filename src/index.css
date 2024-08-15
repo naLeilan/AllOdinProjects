@@ -166,8 +166,8 @@ a:hover {
 }
 /*****detail2*****/
 .detail2 {
-  background-color: var(--color-blue2);
-  color: var(--color-dark2);
+  background-color: var(--color-blue3);
+  color: var(--light-gray);
   padding: 2rem;
   display: flex;
   flex-direction: column;
