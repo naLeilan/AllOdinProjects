@@ -9,6 +9,7 @@ function LandingPage() {
           <a href="#">Link 3</a>
         </div>
       </div>
+
       <div className="main">
         <section className="left">
           <h1>This website is awsome</h1>
@@ -17,12 +18,13 @@ function LandingPage() {
             the readable content of a page when looking at its layout. making it
             look like readable English.
           </p>
-          <button className="btn btn1">Sign up</button>
+          <button className="btn btn1">Read more...</button>
         </section>
         <section className="right">
           <img src="2.jpg" alt="image" className="main-img" />
         </section>
       </div>
+
       <div className="detail1">
         <h2>Learn More About Our Products</h2>
         <div className="images">
@@ -50,6 +52,7 @@ function LandingPage() {
           </div>
         </div>
       </div>
+
       <div className="detail2">
         <p>
           It was popularised in the 1960s with the release of Letraset sheets
@@ -59,7 +62,21 @@ function LandingPage() {
         </p>
         <h4>famouse one</h4>
       </div>
-      <div className="detail3"> detail3</div>
+
+      <div className="detail3">
+        <div className="detail3-part">
+          <div className="detail3-part1">
+            <section className="detail3-left">
+              <h3>Join us Today and take your journey</h3>
+              <h6>Join us Today and take your journey</h6>
+            </section>
+          </div>
+          <section className="detail3-right">
+            <button className="btn btn2">Sign up</button>
+          </section>
+        </div>
+      </div>
+
       <footer>footer</footer>
     </div>
   );
