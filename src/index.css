@@ -81,16 +81,69 @@ body {
 /*****************/
 .main {
   display: flex;
-  gap: 1.6rem;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem 2rem;
+  /*fix shaking in animation*/
+  backface-visibility: hidden;
+  gap: 2rem;
 }
 
 .right {
   background-color: var(--color-blue3);
   border: 1px solid var(--color-blue3);
   border-radius: 10px;
+  width: 40vw;
+  height: 70vh;
+  font-size: 15px;
+  text-align: center;
+  border-radius: 1rem;
 }
 
 .left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/*****************/
+.main-img {
+  width: 40vw;
+  height: 70vh;
+  border-radius: 10px;
+}
+
+/******detail1********/
+.detail1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  gap: 1rem;
+  background-color: var(--light-gray);
+  color: var(--color-dark1);
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.image {
+  border: 1px solid var(--color-dark1);
+  height: 180px;
+  border-radius: 10px;
+}
+
+.image-part {
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  gap: 1rem;
 }
 /*****************/
 .btn {
@@ -100,7 +153,8 @@ body {
   border-radius: 10px;
   border: none;
   transition: all 0.3s;
-  margin: 0 5px;
+  margin: 1rem 5px;
+  padding: 0.5rem;
   font-size: 1rem;
   cursor: pointer;
 }
