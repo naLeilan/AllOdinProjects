@@ -24,33 +24,41 @@ function LandingPage() {
         </section>
       </div>
       <div className="detail1">
-        <h2>Learn More About Our Products and Benefits :</h2>
+        <h2>Learn More About Our Products</h2>
         <div className="images">
           <div className="image-part">
-            <img src="" alt="" className="image" />
+            <img src="3.jpg" alt="image3" className="image" />
             <h6>
               Whey protein is a high-quality, fast-digesting protein that helps
               build and repair muscle tissue. mass.
             </h6>
           </div>
           <div className="image-part">
-            <img src="" alt="" className="image" />
+            <img src="4.jpg" alt="image4" className="image" />
             <h6>
               It's perfect for post-workout recovery, supporting muscle growth,
               and maintaining lean muscle
             </h6>
           </div>
           <div className="image-part">
-            <img src="" alt="" className="image" />
+            <img src="5.jpg" alt="image5" className="image" />
             <h6>aking it look like readable text1</h6>
           </div>
           <div className="image-part">
-            <img src="" alt="" className="image" />
+            <img src="6.jpg" alt="image6" className="image" />
             <h6>aking it look like readable text1</h6>
           </div>
         </div>
       </div>
-      <div className="detail2"> detail2</div>
+      <div className="detail2">
+        <p>
+          It was popularised in the 1960s with the release of Letraset sheets
+          containing Lorem Ipsum passages, and more recently with desktop
+          publishing software like Aldus PageMaker including versions of Lorem
+          Ipsum.
+        </p>
+        <h4>famouse one</h4>
+      </div>
       <div className="detail3"> detail3</div>
       <footer>footer</footer>
     </div>

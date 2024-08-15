@@ -68,11 +68,20 @@ body {
 
 .links {
   display: flex;
-  gap: 16px;
+  gap: 30px;
 }
 
 .links a {
   text-decoration: none;
+  transition: all 0.3s;
+  /*fix shaking in animation*/
+  backface-visibility: hidden;
+}
+
+a:hover {
+  cursor: pointer;
+  scale: 1.1;
+  color: var(--dark-gray);
 }
 
 .headerLogo {
@@ -156,6 +165,31 @@ body {
   width: 180px;
   gap: 1rem;
 }
+/*****detail2*****/
+.detail2 {
+  background-color: var(--color-blue2);
+  color: var(--color-dark2);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 5rem;
+}
+
+.detail2 h4 {
+  font-style: italic;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  padding: 2rem;
+}
+
+.detail2 p {
+  margin-bottom: 3rem; /* Ensure p has a 3rem margin at the bottom */
+}
+
+/*****************/
+
 /*****************/
 .btn {
   width: 130px;
