@@ -240,3 +240,13 @@ a:hover {
   background-color: var(--color-blue2);
   font-size: 0.8rem;
 }
+
+footer {
+  font-size: 0.6rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+footer a {
+  text-decoration: none;
+}

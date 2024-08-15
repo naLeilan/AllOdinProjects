@@ -77,7 +77,18 @@ function LandingPage() {
         </div>
       </div>
 
-      <footer>footer</footer>
+      <footer>
+        <p className="copyright">
+          Copyright &copy;
+          <a
+            className="Github-link"
+            target="_blank"
+            href="https://github.com/NaLeilan"
+          >
+            Leilan Na 2024
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
