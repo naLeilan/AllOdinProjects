@@ -1,0 +1,95 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  --color-dark1: #2c2c2c;
+  --color-dark2: #242323;
+  --color-yelow1: #facc15;
+  --color-blue1: #747bff;
+  --color-blue2: #a7abfa;
+  --color-blue3: #4e5072;
+  --color-red1: #cf3131;
+
+  --dark-gray: #a9a9a9;
+  --light-gray: #d3d3d3;
+
+  --fg: #ffffffde;
+  --input: #2e3138;
+
+  --dur: 1s;
+  font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem 3rem;
+  min-width: 320px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Vertically center */
+  justify-content: space-between;
+  width: 100vw; /* Ensure body takes full viewport width */
+  overflow-x: hidden; /* Prevent horizontal scroll if content exceeds viewport */
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 900px; /* Set width to 100% */
+  max-width: 1280px; /* Optional: restrict the maximum width */
+  margin: 0 auto; /* Center the app horizontally */
+}
+/*****************/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  gap: 70px;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.headerLogo {
+  color: var(--color-blue1);
+}
+/*****************/
+/*****************/
+.btn {
+  width: 130px;
+  height: 50px;
+  background-color: var(--color-blue1);
+  border-radius: 10px;
+  border: none;
+  transition: all 0.3s;
+  margin: 0 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-blue3);
+  scale: 1.1;
+  /* box-shadow: inset 0px 0px 30px 0px var(--color-blue2); */
+}
