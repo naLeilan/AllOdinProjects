@@ -4,15 +4,16 @@ function LandingPage() {
       <div className="navbar">
         <h3 className="headerLogo">header logo</h3>
         <div className="links">
-          <h3>Link1</h3>
-          <h3>Link2</h3>
-          <h3>Link3</h3>
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
         </div>
       </div>
       <div className="main">
-        <div>
+        <div className="left">
           <h2>Nulla at tincidunt orci, at auctor augue.</h2>
         </div>
+        <div className="right"> photo</div>
       </div>
       <div className="detail1"> detail1</div>
       <div className="detail2"> detail2</div>

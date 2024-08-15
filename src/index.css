@@ -60,7 +60,7 @@ body {
 .navbar {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   padding: 16px;
   width: 100%;
   gap: 70px;
@@ -71,10 +71,27 @@ body {
   gap: 16px;
 }
 
+.links a {
+  text-decoration: none;
+}
+
 .headerLogo {
   color: var(--color-blue1);
 }
 /*****************/
+.main {
+  display: flex;
+  gap: 1.6rem;
+}
+
+.right {
+  background-color: var(--color-blue3);
+  border: 1px solid var(--color-blue3);
+  border-radius: 10px;
+}
+
+.left {
+}
 /*****************/
 .btn {
   width: 130px;
